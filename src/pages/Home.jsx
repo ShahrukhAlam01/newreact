@@ -7,6 +7,9 @@ function Home() {
   return (
     <div>
       <>
+        <div className="">
+
+        </div>
         <Header />
         <Banner />
         <Test />

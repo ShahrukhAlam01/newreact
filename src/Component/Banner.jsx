@@ -7,7 +7,7 @@ import Hero from "../assets/images/hero.png"
 export default function Banner() {
     return (
         <Fragment>
-            <section className=' bg-secondary'>
+            <section className=' bg-secondary  -m-24'>
                 <div className='container mx-auto'>
                     <div className='grid grid-cols-12 items-center'>
                         <div className='col-span-6'>
@@ -53,9 +53,9 @@ export default function Banner() {
 
                         </div>
                         <div className='col-span-6'>
-                            <div className='items-start'>
+                            {/* <div className='items-start bg-cover relative'>
                                 <img src={Hero} alt="" />
-                            </div>
+                            </div> */}
 
                         </div>
 

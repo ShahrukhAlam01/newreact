@@ -6,8 +6,8 @@ import { FaBarsStaggered } from "react-icons/fa6";
 export default function Header() {
   return (
     <Fragment>
-      <header className=' bg-transparent h-20 border-b flex items-center border-black'>
-        <div className='container mx-auto  '>
+      <header className=' bg-transparent h-20 border-b flex items-center border-black '>
+        <div className='container'>
           <div className='grid grid-cols-12 items-center'>
             <div className='col-span-9'>
               <div className='items-start'>
